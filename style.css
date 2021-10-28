@@ -1,0 +1,25 @@
+.group{
+display: block;
+padding: 10px;
+background-color:white;
+size: 500px;
+margin-left: 40%;
+margin-right: 40%;
+}
+
+h1{
+font-style: oblique;
+font-size: 50px;
+color: white;
+text-align: center;
+}
+
+header{
+    border-style: double;
+    margin: 20%;
+    background-color: rgba(17, 1, 8, 0.562);
+}
+
+id{
+    color: white;
+}

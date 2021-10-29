@@ -1,3 +1,5 @@
+// js convertisseur de monnaie
+
 let euros = document.getElementById("Euros");
 let dollar = document.getElementById("Dollar");
 let livre = document.getElementById("Livre sterling");
@@ -28,3 +30,17 @@ function convmonnaie(id, value)
 
     }
 }
+
+// js box ouvrante 
+
+const style = document.getElementById("style");
+const box = document.getElementById("box");
+
+style.addEventListener("click",()=>{
+
+    if (box.style.display == 'none') {
+        box.style.display='block';}
+    else {
+        box.style.display='none';
+    }
+})

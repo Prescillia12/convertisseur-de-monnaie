@@ -23,3 +23,18 @@ header{
 id{
     color: white;
 }
+
+/* style bouton */
+#style{
+    background: blue;
+    border-radius: 20px 20px 20px 0;
+    color: white;   
+}
+
+#style:hover{
+    box-shadow:yellow 5px 5px 5px;
+}
+
+#box{
+    display: none;
+}

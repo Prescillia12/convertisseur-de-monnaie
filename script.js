@@ -10,7 +10,7 @@ function convmonnaie(id, value)
     if (id == "Euros") { 
 
         dollar.value = value * 1.16;
-        livre.value = value * 0.85;
+        livre.value = value * 1.19;
         
     }
      else if (id == "Dollar")
@@ -23,8 +23,8 @@ function convmonnaie(id, value)
 
     else if (id == "livre sterling")
     {
-        euros.value = value * 1.18;
-        dollar.value = value * 1.38;
+        euros.value = value * 0.84;
+        dollar.value = value * 0.73;s
 
     }
 }
